@@ -1,14 +1,13 @@
-
 import React from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import Home from './pages/Home'
+import Router from './routes/Router'
 
 function App() {
   return (
     <div className="font-sans text-gray-900">
       <Navbar />
-      <Home />
+      <Router />
       <Footer />
     </div>
   )
